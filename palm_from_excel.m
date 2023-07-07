@@ -1,4 +1,8 @@
 function [] = palm_from_excel(filename,rowNumber,varargin)
+
+    % Authors: John C. Williams, Tram N. B. Nguyen, and Philip N. Tubiolo
+    % Stony Brook University School of Medicine
+    % Albert Einstein College of Medicine
     
     [~,~,raw] = xlsread(filename);
     disp(['Running palm from file : ' filename '.']);  pause(eps); drawnow;
